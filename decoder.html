@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+ <html lang="pt-br">    
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>Decodificador e codificador</title>
+   <link rel="stylesheet" href="./css/decoder.css">
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/mobile.css">
+ </head>
+ <body>  
+  <header>
+    <nav class="header">
+      <h1 class="header_titulo">SECRET DECODER</h1>
+      <img class="header_imagem" src="./img/icone.svg" alt="imagem inicio" />
+    </nav>
+  </header>
+
+  <section class="start">
+    <h2 class="start_titulo">O que você gostaria de codificar?</h2>
+    <textarea id="start_entrada" placeholder="Insira seu texto aqui, lembrando de utilizar apenas letras minúsculas e sem acentuação."></textarea>
+    <textarea id="start_saida" placeholder="Ele sairá aqui!" readonly></textarea>
+  </section>
+
+  <section class="botao_principal">
+    <button id="botao_criptografar" onclick="criptografaTexto()">
+      Criptografar
+    </button>
+    <button id="botao_descriptografar" onclick="descriptografaTexto()">
+      Descriptografar
+    </button>
+  </section>
+
+  <section class="botao_secundario">
+    <button id="botao_copiar" onclick="copiaTexto()">Copiar</button>
+    <button id="botao_apagar" onclick="limpaCampos()">Apagar</button>
+  </section>
+
+  <section class="aviso">
+    <p id="aviso_texto">
+      <img id="aviso_imagem" src="./img/exclamation.png" alt="Exclamação" />
+      Apenas letras minúsculas e sem acentos!
+    </p>
+  </section>
+
+  <aside class="final">
+    <img id="final_imagem" src="./img/final.png" alt="Trocar" />
+    <p class="final_creditos">Criado por João Vítor A. Figueró.</p>
+  </aside>
+
+  <footer class="back">
+    <a href="https://github.com/JvfTech" target="_blank"><img src="./img/github.png"
+        alt="Logo do Github" /></a>
+    <a href="https://www.linkedin.com/in/devfig/" target="_blank"><img src="./img/linkedin.png"
+        alt="Logo do Linkedin" /></a>
+  </footer>
+
+        <!-- SCRIPTS -->    
+    <script src="./script/script.js"></script>
+ </body>
+
+ </html>

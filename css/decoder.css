@@ -1,0 +1,177 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url("./img/duo.avif");    
+    background-size: 100%;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    gap: 0.625rem;
+    top: 0;
+    height: 3.75rem;
+    width: 100%;
+    background-color: #2d18b5;
+  }
+
+  .header_titulo {    
+    font-size: 1.875rem;
+    color: rgb(255, 255, 255)
+  }
+  
+  .header_imagem {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .start {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 1.25rem; 
+  }
+  
+  .start_titulo {
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+  }
+  
+  #start_entrada,
+  #start_saida {
+    width: 40.75rem;
+    height: 12.375rem;
+    padding: 0.625rem;
+    border: 0.325rem dashed #0279e8;
+    border-radius: .6rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black    
+  }
+
+  .botao_principal {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 0.625rem;
+    margin-top: 1.25rem;
+  }
+
+  .botao_secundario {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    white-space: wrap;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+    width: 100%;
+  }
+
+  button {
+    width: 10rem;
+    height: 2.5rem;
+    background-color: rgb(17, 30, 173);
+    flex-flow: row wrap;
+    border: none;
+    border-radius: 0.625rem;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #eeeeee;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: black;
+  }
+
+  #aviso_texto {      
+    padding-top: 2.5px;
+    color: #f7f7f7;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  #aviso_texto img { 
+    vertical-align: middle;
+    width: 1.25rem;
+    word-wrap: break-all;
+  }
+  
+  #aviso_imagem img {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    gap: 0.625rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.75rem;
+    width: 100%;
+    background-color: #2d18b5;
+  }
+  
+  .back img {
+    width: 1.875rem;
+  }
+  
+  .final {
+    padding-left: 10px;
+    color: #f6f7f8c8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin-top: 1.875rem;
+  }
+  
+  #final_imagem {
+    width: 6.25rem;
+  }  
+
+    #start_entrada,
+    #start_saida {
+      width: 37.5rem;
+      height: 12.5rem;
+      font-size: 1.125rem;
+    }
+  
+    button {
+      width: 12.5rem;
+      height: 3.125rem;
+      font-size: 1.125rem;
+    }
+  
+    #aviso_texto {
+      font-size: 1rem;
+    }
+  
+    .back {
+      gap: 1.875rem;
+    }
+  

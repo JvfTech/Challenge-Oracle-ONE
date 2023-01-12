@@ -1,0 +1,50 @@
+body {  
+    background-image: url("https://i.gifer.com/U1c.gif");    
+    background-position: right 0;
+    background-size: cover;
+    background-position: auto;    
+}
+
+.secret-message {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;   
+    width: 40%;
+    height: 10%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation: text-color 3s ease-in-out infinite;
+}
+
+@keyframes text-color {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: purple; }
+    100% { color: red; }
+}
+
+.trade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #043f14, #61b007);
+    box-shadow: 2px 2px 10px #333;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 20px #333;
+}
